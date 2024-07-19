@@ -3,6 +3,9 @@ import './App.css';
 import Windowscroll from './Windowscroll';
 import WindowSize from './WindowSize'; 
 import Mediaquery from './MediaQuery';
+import Sessionstorage from './SessionStorage';
+import Countinuousretry from './CountinuousRetry';
+import Keypress from './KeyPress';
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
         <Windowscroll />
         <WindowSize />
         <Mediaquery />
+        <Sessionstorage />
+        <Countinuousretry />
+        <Keypress />
       </header>
     </div>
   );
